@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://fad7dx.coding-pages.com</id>
+    <id>https://closty.github.io</id>
     <title>TEST</title>
-    <updated>2020-03-31T09:50:28.450Z</updated>
+    <updated>2020-05-10T16:08:07.665Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://fad7dx.coding-pages.com"/>
-    <link rel="self" href="http://fad7dx.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://closty.github.io"/>
+    <link rel="self" href="https://closty.github.io/atom.xml"/>
     <subtitle>just a test</subtitle>
-    <logo>http://fad7dx.coding-pages.com/images/avatar.png</logo>
-    <icon>http://fad7dx.coding-pages.com/favicon.ico</icon>
+    <logo>https://closty.github.io/images/avatar.png</logo>
+    <icon>https://closty.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, TEST</rights>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>http://fad7dx.coding-pages.com/post/hello-gridea/</id>
-        <link href="http://fad7dx.coding-pages.com/post/hello-gridea/">
+        <id>https://closty.github.io/post/hello-gridea/</id>
+        <link href="https://closty.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>This is test</p>
