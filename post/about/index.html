@@ -1,130 +1,135 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
-<title>关于 | TEST</title>
+<title>关于 | Closty</title>
+<meta name="description" content="just a test">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://closty.github.io/favicon.ico?v=1589127029790">
+<link rel="shortcut icon" href="https://closty.github.io/favicon.ico?v=1589127556932">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://closty.github.io/styles/main.css">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
-
-🏠 关于本站 Just a test
-👨‍💻 博主是谁 blog.clost.net
-⛹ 兴趣爱好 打游戏
-📬 联系我呀 i@clost.net
-..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://closty.github.io">
-        <img src="https://closty.github.io/images/avatar.png?v=1589127029790" class="site-logo">
-        <h1 class="site-title">TEST</h1>
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://closty.github.io">
+        <img class="avatar" src="https://closty.github.io/images/avatar.png?v=1589127556932" alt="" width="32px" height="32px">
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+      <a href="https://closty.github.io">
+        <h1 class="site-title">Closty</h1>
+      </a>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">关于</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2019-01-25</span>
+            
+          </div>
+          <div class="post-content">
+            <h2 id="中文">中文</h2>
+<p>这是一个喜欢计算机的金融狗的个人博客，转发分享请标明出处。 本博客内容如有侵权，请通过以下联系方式联系到我，或通过评论区留言，谢谢合作！</p>
+<p>联系方式:<br>
+QQ：2239673052<br>
+邮箱：i@clost.net<br>
+电话：(+852)13599365193</p>
+<h2 id="english">English</h2>
+<p>This is a personal blog belong to the financial dog who likes information technology.Please indicate the source if sharing these essays. Also,if some essays' contents infringed yours, please toutch me through the following contact information, or leave a message in the comment area. Thank you for your cooperation!</p>
+<p>Contact details:<br>
+Telegram：2239673052<br>
+E-mail：i@clost.net<br>
+Tel：(+852)13599365193</p>
+
+          </div>
+        </div>
+
         
+      </div>
+
       
-        
+
+      <div class="site-footer">
+  <div class="slogan">just a test</div>
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-    </div>
-    <div class="site-description">
-      just a test
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">瓶子</a> | <a class="rss" href="https://closty.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
+    
+      
+    
   </div>
+  Powered by <a href="https://github.com/" target="_blank">Github</a> | <a class="rss" href="https://closty.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">关于</h2>
-            <div class="post-date">2019-01-25</div>
-            
-            <div class="post-content" v-pre>
-              <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站-just-a-test">🏠 关于本站 Just a test</h2>
-<h2 id="博主是谁-blogclostnet">👨‍💻 博主是谁 blog.clost.net</h2>
-<h2 id="兴趣爱好-打游戏">⛹ 兴趣爱好 打游戏</h2>
-<h2 id="联系我呀-iclostnet">📬 联系我呀 i@clost.net</h2>
-
-            </div>
-            
-            
-
-            
-
-          </div>
-
-        </div>
-      </div>
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -134,8 +139,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 
