@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://closty.github.io</id>
     <title>Closty</title>
-    <updated>2020-05-10T16:32:41.665Z</updated>
+    <updated>2020-05-10T16:37:15.357Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://closty.github.io"/>
     <link rel="self" href="https://closty.github.io/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://closty.github.io/images/avatar.png</logo>
     <icon>https://closty.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Closty</rights>
+    <entry>
+        <title type="html"><![CDATA[没有VPN也可以看Youtube？！]]></title>
+        <id>https://closty.github.io/post/shareyoutube/</id>
+        <link href="https://closty.github.io/post/shareyoutube/">
+        </link>
+        <updated>2020-05-10T16:32:59.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>今天无意中发现一个神奇的网站，可以没vpn就能在线看油管。但是设计者的初心好像是分享你的油管。比如自己看到有趣的油管视频想分享给朋友但是朋友没有vpn这些的高端操作；去教他反而他因为怕麻烦不感兴趣，毁了当初分享快乐的好心情。而这个网站刚刚好可以帮助到你！但是不要用它来疯狂看油管视频哦～白嫖要温柔～🤠</p>
+</blockquote>
+<h1 id="网址httpssfqjhcf">网址:https://s.fqjh.cf</h1>
+<h1 id="超具体的使用方法">超具体的使用方法：</h1>
+<h2 id="1首先打开自己的youtube点击分享按钮处在vpn环境">1.首先打开自己的Youtube点击分享按钮（处在vpn环境）</h2>
+<details>
+<summary>查看图片详解</summary>
+![点击分享](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/05/465202753.jpg)
+</details>
+<h2 id="2复制分享链接">2.复制分享链接</h2>
+<details>
+<summary>查看图片详解</summary>
+![复制分享链接](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/05/3757569177.jpg)
+</details>
+<h2 id="3将复制好的分享链接填入到httpssfqjhcf-的框框中在点击submit">3.将复制好的分享链接填入到https://s.fqjh.cf 的框框中，在点击submit</h2>
+<details>
+<summary>查看图片详解</summary>
+![FDC047F6EDA7396E5865232CCD681D56.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/05/1581818605.jpg)
+</details>
+<h2 id="4缓慢的转到这个网址点击sharelink的链接就能直接复制啦">4.缓慢的转到这个网址，点击sharelink的链接就能直接复制啦！</h2>
+<details>
+<summary>查看图片详解</summary>
+![D181B25FE570DA4E043A3045C71F0CFD.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/05/1626273878.jpg)
+</details>
+<h2 id="5复制的sharelink便可以无vpn的情况下在线网页看youtube了你可以将你喜欢的youtube视频分享给你的朋友而不用自己麻烦的下载转发亦或是教朋友如何使用代理了相信我他会嫌你麻烦">5.复制的sharelink便可以无vpn的情况下在线网页看YouTube了！你可以将你喜欢的YouTube视频分享给你的朋友而不用自己麻烦的下载转发亦或是教朋友如何使用代理了（相信我他会嫌你麻烦）</h2>
+<details>
+<summary>查看图片详解</summary>
+![F7B71D721B929BAFC3FE8E59B6F1B2BE.jpg](https://cdn.jsdelivr.net/gh/closty/tuchuang/usr/uploads/2020/05/4183982096.jpg)]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[学习通自动签到无服务器运行]]></title>
         <id>https://closty.github.io/post/chaoxing/</id>
